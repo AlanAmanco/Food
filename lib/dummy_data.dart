@@ -3,7 +3,7 @@ import '../models/category.dart';
 
 const dummyCategories = [
   Category(
-    id: 'c11',
+    id: 'c1',
     title: 'Italiano',
     color: Colors.purple,
   ),

@@ -13,15 +13,14 @@ class CategoriesScreen extends StatelessWidget {
         title: const Text('Vamos cozinhar ?'),
       ),
       body: GridView(
+        padding: const EdgeInsets.all(20),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
             childAspectRatio: 3 / 2,
             crossAxisSpacing: 20,
             mainAxisSpacing: 20),
         children: dummyCategories.map((cat) {
-          return CategoryItem(
-            category: cat,
-          );
+          return CategoryItem(cat);
         }).toList(),
       ),
     );
