@@ -1,7 +1,6 @@
-import 'package:food/models/meal.dart';
-
 class AppRoutes {
-  static const HOME = '/';
-  static const CATEGORIES_MEALS = '/categories-meals';
-  static const MEAL_DETAIL = '/meal-detael';
+  static const home = '/';
+  static const categoriesMeals = '/categories-meals';
+  static const mealDetail = '/metal-detail';
+  static const settings = '/settings';
 }
